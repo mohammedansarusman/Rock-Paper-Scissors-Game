@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS GAME</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+    <body>
+        <div class="main-screen">
+            <div class="sub-session">
+                <div class="heading">
+                    <h3>ROCK PAPER SCISSORS GAME</h3>
+                </div>
+                <div class="div-buttons">
+                    <button 
+                        class="bt-rock bt-common" 
+                        onclick="funRock()"
+                        >
+                    </button>
+                    <button 
+                        class="bt-paper bt-common"
+                        onclick="funPaper()"
+                        >
+                    </button>
+                    <button 
+                        class="bt-scissors bt-common"
+                        onclick="funScissors()"
+                        >
+                    </button>
+                </div>
+                <div class="com-you">
+                    <h3 class="h3-session">Your Move</h3>
+                    <div class="bt-sel"></div>
+                    <h3>Computer Move:</h3>
+                    <div class="bt-com"></div>
+                </div>
+                
+                <div class="div-result">
+                    <h3>Result: <span id="result-span"></span></h3>
+                </div>    
+                <div class="summary">
+                    
+                    <h3>Match Summary</h3>
+                    <h3>Total Matches: <span id="totalMatch-span"></span></h3>
+                    <h3>Player win: <span id="playerScore-span"></span></h3>
+                    <h3>Computer win: <span id="computerScore-span"></span></h3>
+                    <h3>Tie matches: <span id="tie-span"></span></h3>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+
+            
+        <script src="script.js"></script>
+
+    </body>
+</html>
